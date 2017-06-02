@@ -54,3 +54,47 @@ A browser window will appear showing the contents of the current directory.  Cli
 
 Review : https://review.udacity.com/?utm_medium=email&utm_campaign=reviewsapp-submission-reviewed&utm_source=blueshift&utm_content=reviewsapp-submission-reviewed&bsft_clkid=703b155c-2e38-4391-bfb8-206d48b95f4d&bsft_uid=1a37e52b-3d02-4a4b-9cf7-fb20ecdcd96e&bsft_mid=326246b8-e986-4881-a4bd-b7b07044c082&bsft_eid=6f154690-7543-4582-9be7-e397af208dbd&bsft_txnid=90f59c85-bffd-4d00-9178-d562513d3cf3#!/reviews/530964
 
+Meets Specifications
+
+Really nice job with this submission. Your project meets all the specifications. Congratulations on passing the first project in the Self Driving Car Nanodegree on your very first attempt and best of lucks in the ones ahead.
+Cheers and Keep up the good work !!!
+
+Here are some links for further improvements:
+https://www.youtube.com/watch?v=hnXkCiM2RSg&feature=youtu.be
+https://www.python.org/dev/peps/pep-0008/
+http://stackoverflow.com/questions/36598897/python-and-opencv-improving-my-lane-detection-algorithm
+Required Files
+
+The project submission includes all required files
+Lane Finding Pipeline
+
+The output video is an annotated version of the input video.
+Your code outputs video with annotations. Nice job !
+In a rough sense, the left and right lane lines are accurately annotated throughout almost all of the video. Annotations can be segmented or solid lines
+The left and right lanes are accurately annotated on the videos.
+Good job !
+Suggestions & Comments
+
+To center even more your annotations on the actual lane lines, I recommend you try tuning the values of your parameters especially the threshold , min_line_length and max_line_gap.
+Examine the parameters by modifying them separately. That will allow you to identify how each parameter affects the lane line. For example:
+max_line_gap defines the maximum distance between segments that will be connected to a single line.
+min_line_len defines the minimum length of a line that will be created.
+Increasing these parameters will create smoother and longer lines
+threshold defines the minimum number of intersections in a given grid cell that are required to choose a line.
+Increasing this parameter, the filter will choose longer lines and ignore short lines.
+These resources ( 1 & 2 & 3 ) might provide further intuition on the subject here
+Visually, the left and right lane lines are accurately annotated by solid lines throughout most of the video.
+Both left and right lines are each a single solid line (i.e. not segmented) generally centered on the actual lane lines
+Here's an algorithm of the process
+2cce0b10-bab0-11e6-8ec1-0242ac110120.jpg
+Reflection
+
+Reflection describes the current pipeline, identifies its potential shortcomings and suggests possible improvements. There is no minimum length. Writing in English is preferred but you may use any language.
+Current pipeline is well described
+Possible shortcomings and potential solutions have been provided.
+Good job !
+Suggestion
+
+As far as curves are concerned on the challenge video, I will encourage you to read this documentation:
+http://airccj.org/CSCP/vol5/csit53211.pdf
+
